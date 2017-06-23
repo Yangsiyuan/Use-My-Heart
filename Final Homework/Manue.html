@@ -9,6 +9,8 @@
 		#BG{
 			width: 1005px;
 			height: 600px;
+			position: absolute;
+			left: 175px;
 		}
 		#SPX{
 			width: 1005px;
@@ -22,7 +24,6 @@
 			font-family:'Buxton Sketch';
 			font-weight: bold;
 			font-size: 30px ;
-			color: #fe4365;
 		}
 		#FOOT{
 			width: 1005px;
@@ -43,20 +44,81 @@
 			color: #fe4365;
 			text-decoration: none;
 		}
+		a:hover{
+			text-decoration: overline;
+			font-weight: bolder;
+		}
+		#one{
+			float: left;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 500px;
+			height: 255px;
+			text-align: center;
+			font-size: 50px;
+			color: #FFD700;
+		}
+		#two{
+			float: left;
+			position: absolute;
+			left: 505px;
+			left: 500px;
+			width: 500px;
+			height: 255px;
+			text-align: center;
+			font-size: 50px;
+			color: #FFD700;
+		}
+		#three{
+			float: left;
+			position: absolute;
+			top: 315px;
+			width: 500px;
+			height: 255px;
+			text-align: center;
+			font-size: 50px;
+			color: #FFD700;
+		}
+		#four{
+			float: left;
+			position: absolute;
+			top: 315px;
+			left:505px;
+			width: 500px;
+			height: 255px;
+			text-align: center;
+			font-size: 50px;
+			color: #FFD700;
+		}
+		.block{
+			display: block;
+			width: 450px;
+			height: 250px;
+		}
 	</style>
 		<div id="BG">
-			<div id="SPX" class="word">
+			<div id="one" class="block">
+				<p>&nbsp &nbsp &nbsp &nbsp</p>
+				<a href="Study.html">STUDY</a>
+			</div>
+			<div id="two" class="block">
+				<p>&nbsp &nbsp &nbsp &nbsp</p>
+				<a href="Fun.html">FUN</a>
+			</div>
+			<div id="SPX" >
 				<a href="List.html">YSY is in the university</a>
 			</div>
 			<div id="ZJ">
-				<div id="Study"></div><div id="Fun"></div><div id="Music&Home"></div><div id="Eat"></div>
-				<img src="img/BG3.jpg" width="1005px" height="600px" usemap="#manue" alt="Manue">
-				<map name="manue" id="manue">
-					<area shape="rect" coords="0,0,550,285" href="Study.html" alt="study">
-					<area shape="rect" coords="550,285,1005,0" href="Fun.html" alt="fun">
-					<area shape="rect" coords="0,315,550,600" href="Music&Home.html" alt="music&home">
-					<area shape="rect" coords="550,600,1005,315" href="Eat.html" alt="eat">
-				</map>
+				<img src="img/BG3.jpg" width="1005px" height="600px" >
+					<div id="three" class="block">
+						<p>&nbsp &nbsp &nbsp &nbsp</p>
+						<a href="Music&Home.html">MUSIC&HOME</a>
+					</div>
+					<div id="four" class="block">
+						<p>&nbsp &nbsp &nbsp &nbsp</p>
+						<a href="Eat.html">EAT</a>
+					</div>
 			</div>
 			<div id="FOOT">
 				With Honor Of YSY
