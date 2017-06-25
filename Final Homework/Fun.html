@@ -10,6 +10,9 @@
 	#BG{
 			width: 1005px;
 			height: 600px;
+			position: absolute;
+			left: 175px;
+			background-color: #ccffff;
 		}
 	#FOOT{
 			width: 1005px;
@@ -20,7 +23,7 @@
 			font-size:15px;
 			float: left;
 			position: absolute;
-			top:578px;
+			top:580px;
 			font-family: 'Showcard Gothic';
 			font-size: 10px;
 			text-align: center;
@@ -32,13 +35,65 @@
 			width: 1005px;
 			float: left;
 			position: absolute;
-			left: 8px;
+			left: 0px;
 			font-family: 'Bradley Hand ITC';
 			text-align: center;
 			color: #ADD8E6;
 			opacity: 1.0;
 			font-size: 30px;
 			font-weight: bolder;
+		}
+		#Novel{
+			height: 250px;
+			width: 250px;
+			border: 10px solid #cc6633;
+			float: left;
+			position: absolute;
+			top: 80px;
+			left: 40px;
+			margin: 20px;
+			font-family: 'MV Boli';
+			font-size: 25px;
+			background-color: #ffff66;
+		}
+		#Comic{
+			height: 250px;
+			width: 250px;
+			border: 10px dotted #ff9900;
+			float: left;
+			position: absolute;
+			top: 240px;
+			left: 220px;
+			margin: 20px;
+			font-family: 'MV Boli';
+			font-size: 25px;
+			background-color: #ffff99;
+		}
+		#Weibo{
+			height: 250px;
+			width: 250px;
+			border: 10px double #9999ff;
+			float: left;
+			position: absolute;
+			top: 80px;
+			left:490px;
+			margin: 20px;
+			font-family: 'MV Boli';
+			font-size: 25px;
+			background-color: #99ccff;
+		}
+		#Game{
+			height: 250px;
+			width: 250px;
+			border: 10px dashed #9966ff;
+			float: left;
+			position: absolute;
+			top: 240px;
+			left: 670px;
+			margin: 20px;
+			font-family: 'MV Boli';
+			font-size: 25px;
+			background-color: #99cc99;
 		}
 		.strong{
 			font-size: 50px;
@@ -47,22 +102,49 @@
 			text-decoration: none;
 			color: #f4a460;
 		}
+		a:hover{
+			text-decoration:underline; 
+			font-size: 50px;
+			opacity: 0.4
+		}
 </style>
 	<div id="BG">
 		<div id="Title">
 			<a href="Manue.html">MANUE</a>
-			&nbsp &nbsp
+			&nbsp 
 			<a href="List.html">LIST</a>
-			&nbsp &nbsp
+			&nbsp 
 			<a href="Eat.html" >EAT</a>
-			&nbsp &nbsp
+			&nbsp 
 			<a href="Fun.html" class="strong">FUN</a>
-			&nbsp &nbsp
+			&nbsp 
 			<a href="Music&Home.html">MUSIC&HOME</a>
-			&nbsp &nbsp
+			&nbsp 
 			<a href="Study.html">STUDY</a>
-			&nbsp &nbsp
+			&nbsp 
 			<a href="Final.html">FINAL</a>
+		</div>
+		<div id="RBG">
+			<div id="Novel">
+				Novel<br/>
+				&nbsp 
+				<a href="Novel."><img src="img/FUN11.png" width="180" height="200"></a>
+			</div>
+			<div id="Comic">
+				Comic<br/>
+				&nbsp &nbsp 
+				<a href="Comic.html"><img src="img/FUN12.png" width="180" height="200"></a>
+			</div>
+			<div id="Weibo">
+				Weibo<br/>
+				&nbsp 
+				<a href="Weibo.html"><img src="img/FUN4.png" width="180" height="210"></a>
+			</div>
+			<div id="Game">
+				Game<br/>
+				&nbsp &nbsp &nbsp 
+				<a href="Game.html"><img src="img/FUN1.jpg" width="150" height="210"></a>
+			</div>
 		</div>
 		<div id="FOOT">
 			With Honor Of YSY
